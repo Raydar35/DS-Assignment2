@@ -10,7 +10,7 @@ public interface OurHashMap<U extends Comparable, T extends Comparable>{
 	 * insert method intends to compute the index using the hash function and key 
 	 * so it can insert the value into the hash table
 	 * @param key
-	 * @param value
+	 * @param data
 	 * @return boolean (true: insert operation successful, 
 	 *                   false: insert operation unsuccessful due to collision)
 	 */
